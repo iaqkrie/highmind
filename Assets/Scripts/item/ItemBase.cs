@@ -12,7 +12,7 @@ public abstract class ItemBase {
 	public abstract void LoadResources ();
 }
 
-public enum ItemSize {
+public enum ItemSize : byte {
 	SLOT,
 	S1X2,
 	S1X3,

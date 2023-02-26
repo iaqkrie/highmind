@@ -5,6 +5,4 @@ using UnityEngine;
 public class ItemSlot {
 	public bool locked;
 	public bool empty;
-
-	
 }

@@ -40,7 +40,7 @@ public class TDCharacterController : MonoBehaviour
 	}
 }
 
-public enum SpriteFacing {
+public enum SpriteFacing : byte {
 	UP,
 	DOWN,
 	LEFT,
