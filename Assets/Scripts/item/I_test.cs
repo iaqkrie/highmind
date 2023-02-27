@@ -6,7 +6,8 @@ public class I_test : Item {
 	public I_test() {
 		name = "test";
 		displayName= "Test";
-		size = ItemSize.S2X2;
+		hSize = 2;
+		vSize = 2;
 
 		LoadResources();
 	}

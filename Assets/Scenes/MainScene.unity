@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 273256255}
   - component: {fileID: 273256258}
   - component: {fileID: 273256257}
-  - component: {fileID: 273256256}
+  - component: {fileID: 273256259}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -162,30 +162,6 @@ RectTransform:
   m_AnchoredPosition: {x: -276, y: 0}
   m_SizeDelta: {x: -552, y: -128}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &273256256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273256254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 10
-    m_Right: 10
-    m_Top: 10
-    m_Bottom: 10
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 38, y: 38}
-  m_Spacing: {x: 0, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
 --- !u!114 &273256257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,6 +200,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273256254}
   m_CullTransparentMesh: 1
+--- !u!114 &273256259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273256254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371ee90c71aaf6840a50eb1393327e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPadding: 10
+  yPadding: 10
+  nSlotInRow: 6
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
